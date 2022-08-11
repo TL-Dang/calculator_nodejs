@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Calculator app</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div id="container">
+      <form action="/" method="post">
+        <input type="text" name="num1" placeholder="First Number"/>
+        <input type="text" name="num2" placeholder="Second Number"/>
+        <button type="submit" name="submit">Calculate</button>
+      </form>
+    </div>
+    <style>
+      #container {
+        display: grid;
+        grid: repeat(2, 60px) / auto-flow 80px;
+        padding: 2em;
+      }
+    </style>
+  </body>
+</html>
